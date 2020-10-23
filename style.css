@@ -1,0 +1,15 @@
+button
+{
+    width: 50;
+    height:50;
+    margin:2;
+    font-size: 25;
+    cursor: pointer;
+}
+.textview
+{
+    width:220;
+    margin:5;
+    font-size: 25;
+    padding: 5;
+}

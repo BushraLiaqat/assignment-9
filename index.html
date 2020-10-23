@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 9</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script>
+        function sum()
+        {
+           var input=document.getElementById("input").value;
+           document.getElementById("output").value=eval(input);
+        }
+        function subtraction()
+        {
+            var input=document.getElementById("input").value;
+           document.getElementById("output").value=eval(input); 
+        }
+        function multiplication()
+            {
+            var input=document.getElementById("input").value;
+           document.getElementById("output").value=eval(input); 
+        }
+        function division()
+        {
+            var input=document.getElementById("input").value;
+           document.getElementById("output").value=eval(input); 
+        }
+    </script>
+
+</head>
+<body>
+  
+    <div class="container">
+
+   <h1 style="margin-top: 100px; margin-bottom: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculator</h1>
+
+   <div class="card">
+    <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+            <div class="form-group">
+                <h2 style="margin-bottom: 10px;">First Input</h2>
+    <input type="text" class="form-control" placeholder="enter input" id="input" name="">
+    <br>
+    <h2 style="margin-bottom: 10px;">Output</h2>
+    <input type="text" class="form-control" placeholder="output" id="output"  name=""  readonly="">
+    <!--output-->
+</div></div>
+<div class="col-md-6" >
+    <div class="form-group">
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPERATIONS</h2>
+               <div class="row" style="margin-bottom: 10px;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="btn btn-primary" onclick="sum()"  id="sum"  value="sum"></div>
+ <div class="row"style="margin-bottom: 10px;" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="submit" class="btn btn-primary" onclick="subtraction()"  id="subtraction"  value="subtraction"></div>
+ <div class="row"style="margin-bottom: 10px;" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="submit" class="btn btn-primary" onclick="multiplication()"  id="multiplication"  value="multiplication"></div>
+ <div class="row"style="margin-bottom: 10px;" >  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" class="btn btn-primary" onclick="division()"  id="division"  value="division"></div>
+    </div>
+                        </div>
+</div>
+</div></div>
+</div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
